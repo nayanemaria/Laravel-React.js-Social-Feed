@@ -36,11 +36,7 @@ Navegue até o diretório do projeto Laravel e instale as dependências do proje
 
 "composer install"
 
-## Passo 4: Configurar variáveis de ambiente do Laravel
-
-Renomeie o arquivo .env.example para .env. Em seguida, abra o arquivo .env e configure as variáveis de ambiente necessárias, como as configurações do banco de dados.
-
-## Passo 5: Executar migrações do Laravel
+## Passo 4: Executar migrações do Laravel
 
 Execute as migrações do Laravel para criar as tabelas no banco de dados:
 
