@@ -1,0 +1,120 @@
+  @font-face {
+      font-family: 'Lato-Light';
+      font-weight: normal;
+      src: url('./../../public/fonts/Lato/Lato-Light.ttf') format('truetype');
+  }
+
+  @font-face {
+      font-family: 'Lato-Regular';
+      font-weight: normal;
+      src: url('./../../public/fonts/Lato/Lato-Regular.ttf') format('truetype');
+  }
+
+  .content {
+      margin-top: 90px;
+  }
+
+  .logo {
+      width: 100px;
+  }
+
+  p.title-author {
+      margin-left: 10px;
+  }
+
+  .mb-lg-5.mb-4.fixed-top.navbar.navbar-expand-lg.navbar-light.bg-light {
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+  .display-4.font-weight-bold.text-primary.card-text {
+      font-family: "Lato-Light";
+  }
+
+  .navbar-brand {
+      font-weight: bold;
+      font-size: 25px !important;
+  }
+
+  .button-delete-photo.position-absolute.top-0.end-0.transparent.btn.btn-danger {
+      background-color: transparent;
+      border: none;
+      margin-top: -4px;
+      margin-right: 8px;
+  }
+
+  .flex-grow-1.rounded-pill.border-post.bg-transparent.btn.btn-primary {
+      border-color: rgba(169, 169, 169, 0.5);
+      white-space: normal;
+      color: var(--bs-card-color);
+      text-align: left;
+      margin-left: 10px;
+  }
+
+  .ml-auto.navbar-nav {
+      display: none;
+  }
+
+  .navbar-toggler:focus {
+      box-shadow: none !important;
+  }
+
+  .details {
+      line-height: 1.3;
+  }
+
+  .details>span {
+      margin-left: 10px;
+      font-size: 12px;
+  }
+
+  .category.card-text {
+      font-size: 12px;
+  }
+
+  @media (max-width: 767px) {
+      .content {
+          margin-top: 87px;
+      }
+
+      .ml-auto.navbar-nav {
+          display: block;
+      }
+
+      .infor-network {
+          display: flex;
+          justify-content: center;
+      }
+
+      .infor-network>div {
+          width: 165px;
+          height: auto;
+      }
+
+      .infor-center {
+          margin: 0 5px;
+      }
+
+      .text-center.card-title.h5 {
+          font-size: 12px !important;
+      }
+
+      .display-4.font-weight-bold.text-primary.card-text {
+          font-size: 18px;
+      }
+
+      .actions.bg-light.p-4.text-center {
+          display: none;
+      }
+
+      .flex-grow-1.rounded-pill.border-post.bg-transparent.btn.btn-primary {
+          font-size: 13px;
+      }
+
+      .actions.bg-light.p-lg-4.p-3.text-center.col-md-3 {
+          display: none;
+      }
+
+      .details>span {
+          font-size: 10px;
+      }
+  }
